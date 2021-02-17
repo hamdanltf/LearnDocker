@@ -23,3 +23,16 @@
 ###### **docker server **
 
 membuat image, meruning container
+
+
+
+###### name spacing
+
+cara yang dilakukan sistem operasi untuk membagi resource kepada aplikasi/process spesifik. misal membuat segmen pada HDD untuk menjalankan aplikasi X.
+
+###### control groups (cgroups)
+
+membatasi resources yang digunakan tiap2 process
+
+
+
