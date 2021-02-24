@@ -145,3 +145,21 @@ $ docker logs <ID Container>
 ```
 
 dengan menjalankan perintah ini kita dapat melihat log atau hasil output dari container yang pernah dijalankan tanpa perlu meruning ulang
+
+
+
+
+
+###### Stop docker
+
+```sh
+$ docker stop <ID container>
+```
+
+akan berhenti setelah 10 detik, memberi waktu proses untuk berhenti, save, membersihkan file2, dsb
+
+```sh
+$ docker kill <ID Container>
+```
+
+menghentikan seketika secara paksa
