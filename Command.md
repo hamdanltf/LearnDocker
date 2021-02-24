@@ -96,3 +96,52 @@ $ sudo systemctl disable containerd.service
 $ docker version
 ```
 
+
+
+
+
+###### Check running docker
+
+```sh
+$ docker ps
+```
+
+###### Check all running docker (including previous)
+
+```sh
+$ docker ps --all
+```
+
+saat kita meruning perintah diatas, pada terminal akan tampil ID container dari docker yang pernah dijalankan.
+
+![image-20210224113011910](/home/azuluna/.config/Typora/typora-user-images/image-20210224113011910.png)
+
+###### Restart docker 
+
+```sh
+$ docker start -a <IDContainer>
+```
+
+![image-20210224113112511](/home/azuluna/.config/Typora/typora-user-images/image-20210224113112511.png)
+
+jika tidak menggunakan -a akan menampilkan kembali ID Container
+
+
+
+###### Delete container
+
+```sh
+$ docker system prune
+```
+
+perintah ini akan menghapus semua docker yang ada di komputer termasuk cache dari dockerhub,
+
+
+
+###### See docker log
+
+```sh
+$ docker logs <ID Container>
+```
+
+dengan menjalankan perintah ini kita dapat melihat log atau hasil output dari container yang pernah dijalankan tanpa perlu meruning ulang
